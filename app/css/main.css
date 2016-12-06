@@ -1,0 +1,14 @@
+
+html,
+body {
+
+    -webkit-app-region: drag;
+
+}
+.button-sound {
+
+    -webkit-app-region: no-drag;
+}
+#launchpad{
+	border: 1px solid black;
+}

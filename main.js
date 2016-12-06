@@ -15,10 +15,10 @@ function createWindow () {
 
 	// Create the browser window.
   mainWindow = new BrowserWindow({
-		frame: false,
-    height: 700,
-    resizable: false,
-    width: 368
+		//frame: false,
+		//resizable: false,
+		height: 1000,
+    width: 800
 	})
 
   // and load the index.html of the app.
@@ -29,7 +29,7 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  //mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
