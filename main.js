@@ -18,7 +18,7 @@ function createWindow () {
 		//frame: false,
 		//resizable: false,
 		height: 1000,
-    width: 800
+        width: 800
 	})
 
   // and load the index.html of the app.
@@ -45,7 +45,10 @@ function createWindow () {
 // Some APIs can only be used after this event occurs.
 app.on('ready', function(){
 
-	createWindow();
+
+    //var menubar = new events.EventEmitter();
+
+    createWindow();
 
 
 })
